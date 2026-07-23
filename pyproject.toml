@@ -1,0 +1,10 @@
+# Virtual workspace root — no [project] section.
+# uv 0.11.32: this root has no installable package; it only
+# declares the workspace and its members.
+[tool.uv.workspace]
+members = ["packages/api", "packages/worker"]
+
+[tool.uv]
+# Canonical lockfile enforcement (uv 0.11.32):
+# uv lock --check and --locked reject non-canonical formats.
+# This workspace demonstrates the canonical uv.lock format.
