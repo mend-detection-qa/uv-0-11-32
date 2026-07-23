@@ -1,0 +1,386 @@
+{
+  "generated_at": "2026-07-23T23:31:32Z",
+  "packages": {
+    "amqp": {
+      "dependencies": [
+        "vine"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "5.2.0"
+    },
+    "anyio": {
+      "dependencies": [
+        "idna",
+        "sniffio"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "4.4.0"
+    },
+    "api": {
+      "dependencies": [
+        "httpx",
+        "structlog"
+      ],
+      "editable": true,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "local",
+      "source_detail": {
+        "path": "packages/api"
+      },
+      "version": "0.1.0"
+    },
+    "billiard": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "4.2.0"
+    },
+    "celery": {
+      "dependencies": [
+        "billiard",
+        "click",
+        "click-didyoumean",
+        "click-plugins",
+        "click-repl",
+        "kombu",
+        "python-dateutil",
+        "tzdata",
+        "vine"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "5.4.0"
+    },
+    "certifi": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "2024.7.4"
+    },
+    "click": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "8.1.7"
+    },
+    "click-didyoumean": {
+      "dependencies": [
+        "click"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "0.3.1"
+    },
+    "click-plugins": {
+      "dependencies": [
+        "click"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "1.1.1"
+    },
+    "click-repl": {
+      "dependencies": [
+        "click",
+        "prompt-toolkit"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "0.3.0"
+    },
+    "h11": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "0.14.0"
+    },
+    "httpcore": {
+      "dependencies": [
+        "certifi",
+        "h11"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "1.0.5"
+    },
+    "httpx": {
+      "dependencies": [
+        "anyio",
+        "certifi",
+        "httpcore",
+        "idna",
+        "sniffio"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "0.27.2"
+    },
+    "idna": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "3.7"
+    },
+    "kombu": {
+      "dependencies": [
+        "amqp",
+        "vine"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "5.3.7"
+    },
+    "prompt-toolkit": {
+      "dependencies": [
+        "wcwidth"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "3.0.47"
+    },
+    "python-dateutil": {
+      "dependencies": [
+        "six"
+      ],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "2.9.0.post0"
+    },
+    "six": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "1.16.0"
+    },
+    "sniffio": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "1.3.1"
+    },
+    "structlog": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "24.4.0"
+    },
+    "tzdata": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "2024.1"
+    },
+    "vine": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "5.1.0"
+    },
+    "wcwidth": {
+      "dependencies": [],
+      "editable": false,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "0.2.13"
+    },
+    "worker": {
+      "dependencies": [
+        "api",
+        "celery"
+      ],
+      "editable": true,
+      "extras_activating_this": [],
+      "group": "main",
+      "marker": null,
+      "optional": false,
+      "source": "local",
+      "source_detail": {
+        "path": "packages/worker"
+      },
+      "version": "0.1.0"
+    }
+  },
+  "pm": "uv",
+  "pm_version_tested": "0.4",
+  "pm_version_under_test": "0.11.32",
+  "project_metadata": {
+    "groups": [
+      "main"
+    ],
+    "python_constraint": ">=3.11"
+  },
+  "root": {
+    "dependencies": [
+      "api",
+      "worker"
+    ],
+    "name": "workspace-canonical-lockfile-v0-11-32",
+    "version": "0.0.0"
+  },
+  "schema_version": "1.2",
+  "source_file": "uv.lock",
+  "warnings": [
+    "Virtual workspace root has no [project] section — root.version is set to 0.0.0 as a sentinel.",
+    "uv tool is not in install-tool list; exact uv version 0.11.32 cannot be pinned via scanSettings.versioning. Only python can be pinned. Bucket B — no .whitesource emitted (dynamic Python detection from .python-version covers it).",
+    "Lockfile written in canonical format enforced by uv 0.11.32: [[package]] entries sorted alphabetically, [package.dependencies] as TOML subtable, [package.sdist] and [[package.wheels]] consistent. Mend lockfile parser must accept this format.",
+    "workspace metadata output format changed in uv 0.11.32 — downstream tools consuming uv workspace metadata JSON must handle the updated shape."
+  ]
+}
